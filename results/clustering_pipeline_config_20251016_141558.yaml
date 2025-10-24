@@ -1,0 +1,21 @@
+clustering:
+  method: kmeans
+  parameters:
+    n_clusters: 3
+dimensionality_reduction:
+  method: pca
+  parameters:
+    n_components: 2
+metadata:
+  app_version: 0.1.0
+  created_at: '2025-10-16T14:15:58.113307'
+preprocessing:
+  handle_missing: impute
+  imputation_method: mean
+  max_categories: 50
+  one_hot_encode: true
+  remove_duplicates: true
+  scaling_method: standard
+  variance_threshold: 0.0
+random_seed: 42
+version: '1.0'

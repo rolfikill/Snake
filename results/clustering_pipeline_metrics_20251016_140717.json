@@ -1,0 +1,8 @@
+{
+  "silhouette_score": 0.7774491130937683,
+  "davies_bouldin_score": 0.2987862709929015,
+  "calinski_harabasz_score": 204.94237914913757,
+  "n_clusters": 3,
+  "n_points": 33,
+  "cluster_sizes": {
+    "cluster_0": 

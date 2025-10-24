@@ -1,0 +1,22 @@
+{
+  "silhouette_score": 0.7774491130937683,
+  "davies_bouldin_score": 0.2987862709929015,
+  "calinski_harabasz_score": 204.94237914913757,
+  "n_clusters": 3,
+  "n_points": 33,
+  "cluster_sizes": {
+    "cluster_0": 11,
+    "cluster_1": 11,
+    "cluster_2": 11
+  },
+  "outlier_count": 0,
+  "outlier_percentage": 0.0,
+  "min_cluster_size": 11,
+  "max_cluster_size": 11,
+  "mean_cluster_size": 11.0,
+  "std_cluster_size": 0.0,
+  "metadata": {
+    "created_at": "2025-10-16T14:15:58.118604",
+    "app_version": "0.1.0"
+  }
+}

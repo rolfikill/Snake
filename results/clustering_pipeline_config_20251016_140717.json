@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "random_seed": 42,
+  "preprocessing": {
+    "handle_missing": "impute",
+    "imputation_method": "mean",
+    "scaling_method": "standard",
+    "one_hot_encode": true,
+    "max_categories": 50,
+    "remove_duplicates": true,
+    "variance_threshold": 0.0
+  },
+  "dimensionality_reduction": {
+    "method": "pca",
+    "parameters": {
+      "n_components": 2
+    }
+  },
+  "clustering": {
+    "method": "kmeans",
+    "parameters": {
+      "n_clusters": 3
+    }
+  },
+  "metadata": {
+    "created_at": "2025-10-16T14:07:17.479749",
+    "app_version": "0.1.0"
+  }
+}
